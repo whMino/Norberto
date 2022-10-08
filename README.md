@@ -31,3 +31,12 @@ Soluzione: Questa app grazie ad alcune domande e filtri da selezionare, ti consi
 Problema: Le riviste giornaliere di cronaca del paese come è ovvio che sia dopo un determinato periodo vanno perdute. Ma se tu sai che 2 anni fa sei finito sul giornale con il sindaco di paesino e vuoi leggerti l’articolo che fai.
 
 Soluzione: Questa app ti permette di leggere tutte le edizioni di giornali di cronaca di ogni paese.
+
+
+
+
+Idee Minotti:
+
+-Applicazione per allenare la memoria
+Applicazione che tramite allenamento permette l’apprendimento e la facilitazione dell’utilizzo delle tecniche mnemoniche per imparare velocemente e in grandi quantità varie forme di informazioni come numeri, parole, immagini.
+

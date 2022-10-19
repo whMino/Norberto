@@ -39,6 +39,7 @@ Idee Minotti:
 
 -Applicazione per allenare la memoria
 Applicazione che tramite allenamento permette l’apprendimento e la facilitazione dell’utilizzo delle tecniche mnemoniche per imparare velocemente e in grandi quantità varie forme di informazioni come numeri, parole, immagini.
+
 ---------------------------------------------------------------------------------------------------------------
 
 Applicazione Kindle per giornali

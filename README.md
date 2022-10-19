@@ -39,4 +39,19 @@ Idee Minotti:
 
 -Applicazione per allenare la memoria
 Applicazione che tramite allenamento permette l’apprendimento e la facilitazione dell’utilizzo delle tecniche mnemoniche per imparare velocemente e in grandi quantità varie forme di informazioni come numeri, parole, immagini.
+---------------------------------------------------------------------------------------------------------------
+
+Applicazione Kindle per giornali
+
+Funzioni:
+- MUST: Mostrare una scelta di diversi giornali, con la possibilità di poi leggerli singolarmente o visualizzare i loro dettagli
+- MUST: Mostrare giornali attuali che si aggiornano frequentemente
+- SHOULD: Dare la possibilità di scegliere la posizione dell’utente, mostrando i giornali che gli potrebbero interessare
+- SHOULD: Dare la possibilità di salvare degli articoli per una lettura futura.
+- MAY: Dare la possibilità di far scegliere all’utente degli argomenti che gli interessano, cambiando anche i loro giornali suggeriti
+- MAT: Dare la possibilità di condividere articoli e/o giornali 
+
+Dati:
+- Diverse risorse dove prendere i giornali da mostrare, possibilmente aggiornate frequentemente (Siti dei vari giornali)
+- Posizione dell’utente inserita manualmente o con gps
 

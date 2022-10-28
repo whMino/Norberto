@@ -50,7 +50,7 @@ public class WindowManager extends JPanel {
      * @brief imposta le dimensioni del panel.
      */
     private void setPanelSize() {
-        size = new Dimension(Jourubuz.currentScreenWidth, Jourubuz.currentScreenHeight);//1792.1010
+        size = new Dimension(1920,1080);
         setMinimumSize(size);
         setPreferredSize(size);
         setMaximumSize(size);

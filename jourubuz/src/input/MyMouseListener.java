@@ -17,9 +17,9 @@ public class MyMouseListener implements MouseListener, MouseMotionListener{
     @Override
     public void mouseClicked(MouseEvent e) {
         if (e.getButton() == MouseEvent.BUTTON1) {
-            switch (StatesManager.actualState) {
-                case MENU:
-                    jourubuz.getMenu().mouseClicked(e);
+            switch (StatesManager.state) {
+                case HOME:
+                    jourubuz.getHome().mouseClicked(e);
                     break;  
             }
         }
@@ -27,18 +27,18 @@ public class MyMouseListener implements MouseListener, MouseMotionListener{
 
     @Override
     public void mousePressed(MouseEvent e) {
-        switch (StatesManager.actualState) {
-            case MENU:
-                jourubuz.getMenu().mousePressed(e);
+        switch (StatesManager.state) {
+            case HOME:
+                jourubuz.getHome().mousePressed(e);
                 break;   
         }
     }
 
     @Override
     public void mouseReleased(MouseEvent e) {
-        switch (StatesManager.actualState) {
+        switch (StatesManager.state) {
             case HOME:
-                jourubuz.getMenu().mouseReleased(e);
+                jourubuz.getHome().mouseReleased(e);
                 break;   
         }
     }
@@ -55,18 +55,18 @@ public class MyMouseListener implements MouseListener, MouseMotionListener{
 
     @Override
     public void mouseDragged(MouseEvent e) {
-        switch (StatesManager.actualState) {
+        switch (StatesManager.state) {
             case HOME:
-                jourubuz.getPlaying().mouseDragged(e);
+                jourubuz.getHome().mouseDragged(e);
                 break;
         }
     }
 
     @Override
     public void mouseMoved(MouseEvent e) {
-        switch (StatesManager.actualState) {
+        switch (StatesManager.state) {
             case HOME:
-                jourubuz.getMenu().mouseMoved(e);
+                jourubuz.getHome().mouseMoved(e);
                 break;
         }
     }

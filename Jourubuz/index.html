@@ -7,19 +7,20 @@
     <title>Document</title>
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body background="sfondologin.jpg">
+    
     <form id="login">
         <div id="centro">
-
-            <label>username:</label>
-            <input type="text" name="username">
+            <p id="scritta_login">LOGIN PAGE</p>
+            <label id="username"> Username:</label>
+            <input type="text" id="textuser" name="username">
     
-            <label>password:</label>
-            <input type="text" name="password">
+            <label id="password">Password:</label>
+            <input type="text" id="textpw" name="password">
     
-            <input type="button" onclick="accedi()" value="accedi">
-            <input type="button" onclick="registra()" value="register">  
-
+            <input type="button" id="accedi" onclick="accedi()" value="Accedi">
+            <input type="button" id="registra" onclick="registra()" value="Register">  
+            
 
         </div>
         

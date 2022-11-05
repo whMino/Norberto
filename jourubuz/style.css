@@ -1,0 +1,12 @@
+body{
+    width:100vh;
+    height:100vw;
+    background-color:darkcyan;
+}
+#centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:5px solid black;
+    border-radius: 10%;
+}

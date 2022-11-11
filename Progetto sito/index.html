@@ -5,26 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--Importazione del file style.css-->
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
+
+<!--si usa come sfondo l'immagine inserita-->
 <body background="sfondologin.jpg">
-    
+
+    <!--form-->
     <form id="login">
         <div id="centro">
+            
             <p id="scritta_login">LOGIN PAGE</p>
+            <!--si inseriscono la label e il testo per inserire l'username-->
             <label id="username"> Username:</label>
             <input type="text" id="textuser" name="username">
-    
+                
+            <!--si inseriscono la label e il testo per inserire la password-->
             <label id="password">Password:</label>
             <input type="text" id="textpw" name="password">
-    
+
+
+            <!--Elemento button per accedere al sito-->
             <input type="button" id="accedi" onclick="accedi()" value="Accedi">
+            <!--Elemento button per registrarsi al sito-->
             <input type="button" id="registra" onclick="registra()" value="Register">  
             
 
         </div>
         
     </form> 
+    <!--Importazione del file script.js-->
     <script src="script.js"></script> 
 </body>
 </html>

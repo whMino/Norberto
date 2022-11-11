@@ -1,4 +1,5 @@
-body{
+/*  */
+body{  
     width:100vh;
     height:50vh;
     display: flex;
@@ -10,25 +11,36 @@ body{
     
           
 }
+
+
 #sfondo{
     background-attachment: fixed;
 
 }
+
+/* Si inserisce il carattere e la grandezza della label */
 #username{
     font: italic;
     font-size: 2.5vh;
 }
+
+/* Si inserisce la grandezza del text */
 #textuser{
     font-size: 2.5vh;
 }
+
+/* Si inserisce la grandezza del text */
 #textpw{
     font-size: 2.5vh;
 }
 
+/* Si inserisce il carattere e la grandezza della label */
 #password{
     font: italic;
     font-size: 2.5vh;
 }
+
+/*Per la cornice*/
 #centro{
     height: 30vh;
     width: 30vh;
@@ -39,20 +51,25 @@ body{
     flex-direction: column;
     gap: 10px;
 }
+
+
 #scritta_login{
     text-align: center;
     font: italic;
     font-size: 3vh;
 }
+
+/*Button accedi*/
 #accedi{
     background-color:gray;
     font-size: 2.5vh;
 
 
 }
+
+/*Button registra*/
 #registra{
     background-color: gray;
     font-size: 2.5vh;
     margin-bottom: 2vh;
 }
-

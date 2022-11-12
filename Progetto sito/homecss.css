@@ -8,31 +8,38 @@ body{
 }
 
 #head{
-    position:fixed;
+    position:relative;
     top:0;
     left:0;
-    height:10%;
+    height:15%;
     width:100vw;
     background-color:aquamarine;
 }
 
+#jourubuz{
+    position: absolute;
+    top:6%;
+    left:6%;
+    font-size: 9vh;
+    font-family: Calibri;
+    font-weight: bold;
 
+}
 #hamburger {
     width: 40px;
     height: 40px;
     display: block;
-    position: relative;
+    position: absolute;
+    right:4%;
+    top:30%;
     float: right;
-    transform: rotate(0deg);
-    transition: .5s ease-in-out;
-    cursor: pointer;
 }
 #hamburger span {
     display: block;
     position: absolute;
     height: 4px;
     width: 100%;
-    background: white;
+    background: black;
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -47,4 +54,23 @@ body{
 }
 #hamburger span:nth-child(3) {
  top: 30px;
+}
+
+
+
+
+.container-fluid{
+    width:85vw;
+    height:55vh;
+    position: relative;
+    left:7.5vw;
+    top:-1px;
+}
+.carousel-inner{
+    border: 5px solid black;
+    border-radius: 1%;
+}
+.w-100{
+    position: relative;
+    height: 55vh;
 }

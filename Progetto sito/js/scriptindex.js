@@ -1,11 +1,34 @@
 var reader = new XMLHttpRequest();
+let stringa = "";
 
 function Accedi(){
-    if(document.getElementById("textuser").value != "" && document.getElementById("textpw").value != "")
+    var username = document.getElementById("textuser").value;
+    var pass = document.getElementById("textpw").value;
+
+    if(username != "" && pass != "")
     {
-        var stringa = Leggi();
-        alert("Acceduto correttamente");
-        //location.replace("./home.html");
+        var controllo = false;
+        Leggi();
+        righe = stringa.split("\n");
+
+        for(var i = 0; i<righe.length - 1; i++)
+        {
+            let valori = righe[i].split(";");
+            if(username == valori[0] && pass == valori[1])
+            {
+                controllo = true;
+            }
+        }
+
+        if(controllo==true)
+        {
+            alert("Acceduto correttamente");
+            location.replace("./home.html");
+        }
+        else
+        {
+            alert("Username o password errata");
+        }
     }
     else
     {
@@ -14,10 +37,34 @@ function Accedi(){
 }
 
 function Registra(){
-    if(document.getElementById("textuser").value != "" && document.getElementById("textpw").value != "")
+    var username = document.getElementById("textuser").value;
+    var pass = document.getElementById("textpw").value;
+
+    if(username != "" && pass != "")
     {
-        alert("Registrato correttamente");
-        location.replace("./home.html");
+        var controllo = true;
+        Leggi();
+        righe = stringa.split("\n");
+
+        for(var i = 0; i<righe.length - 1; i++)
+        {
+            let valori = righe[i].split(";");
+            if(username == valori[0] && pass == valori[1])
+            {
+                controllo = false;
+            }
+        }
+
+        if(controllo==true)
+        {
+            alert("Registrato correttamente");
+            location.replace("./home.html");
+        }
+        else
+        {
+            alert("Account già esistente");
+        }
+
     }
     else
     {
@@ -35,7 +82,7 @@ function Leggi()
             if(reader.status === 200 || reader.status == 0)
             {
                 var allText = reader.responseText; //allText è il file su una stringa
-                return allText;
+                stringa = allText;
             }
         }
     }

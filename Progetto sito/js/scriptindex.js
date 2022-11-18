@@ -5,6 +5,9 @@ function Accedi(){
     var username = document.getElementById("textuser").value;
     var pass = document.getElementById("textpw").value;
 
+    localStorage.setItem('user', username); //Test
+    localStorage.setItem('pass', pass);
+
     if(username != "" && pass != "")
     {
         var controllo = false;

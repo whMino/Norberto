@@ -1,0 +1,166 @@
+body{
+    width:100vh;
+    height:100vh;
+    background-color:white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#head{
+    position:relative;
+    top:0;
+    left:0%;
+    height:15%;
+    width:100vw;
+    background-color:black;
+}
+
+#jourubuz{
+    position: absolute;
+    top:6%;
+    left:40%;
+    font-size: 9vh;
+    font-family: Imitation;
+    font-weight: bold;
+    color:white;
+
+}
+#hamburger {
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    left:2%;
+    top:30%;
+    float: right;
+}
+#hamburger span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: white;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+#hamburger span:nth-child(1) {
+ top: 6px;
+}
+#hamburger span:nth-child(2) {
+ top: 18px;
+}
+#hamburger span:nth-child(3) {
+ top: 30px;
+}
+#container
+{
+    position: absolute;
+    left:38%;
+    height: 40vh;
+    width: 35vh;
+    border:7px solid white;
+    padding:7%;
+    border-radius:80% 20% 90% 10% / 47% 73% 27% 53%  ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color:black;
+    margin-top:10vh;
+}
+#impostazioni{
+    font-size: 5vh;
+    color:white;
+    display: flex;
+    justify-content: center;
+    margin:0;   
+}
+#preferenze{
+    font-size: 3vh;
+    color:white;
+}
+#aggiungi{
+    font-size: 2vh;
+    color:white;
+    background-color: gray;
+}
+#rimuovi{
+    font-size: 2vh;
+    color:white;
+    background-color: gray;
+}
+#localita{
+    font-size: 3vh;
+    color:white;
+}
+#btnlocalita{
+    font-size: 2vh;
+    color:white;
+    background-color: gray;
+}
+#btnhome{
+    font-size: 2vh;
+    color:white;
+    background-color: gray;
+    width: auto;
+}
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer 
+  {
+    text-align:center
+  }
+}

@@ -7,18 +7,36 @@
     <title>Impostazioni</title>
     <link href="../css/impostazioni.css" rel="stylesheet" type="text/css">
 </head>
-<body style="background-color: lightblue;">
+<body >
+    <header id="head">
+        <label id="jourubuz">JOURUBUZ</label>
+    <div id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 
-    <label>Preferenza: </label>
-    <input type="text" id="Preferenza"><br>
-    <button value="Aggiungi">Aggiungi</button>
-    <button value="Rimuovi">Rimuovi</button><br><br>
+    </header>
 
-    <Label>Località:</Label>
-    <input type="text" id="Località" value="Italia">
-    <button value="Salva">Salva località</button>
-    <br><br><br><br><br><br><br>
+    <div id="container">
+        <p id="impostazioni">Impostazioni</p>
+        <label id="preferenze">Preferenza: </label>
+        <input type="text" >
+        <button value="Aggiungi" id="aggiungi">Aggiungi</button>
+        <button value="Rimuovi" id="rimuovi">Rimuovi</button><br>
 
-    <a href="home.html">Torna alla home</a>
+        <Label id="localita">Località:</Label>
+        <input type="text" id="Località" value="Italia">
+        <button value="Salva" id="btnlocalita">Salva località</button>
+        <form action="home.html">
+        <button type="submit" id="btnhome">Torna alla home</button>
+              
+        
+        <br><br><br><br><br><br><br>
+          
+  </form>
+  </div>
+  
+  </body>
 </body>
 </html>

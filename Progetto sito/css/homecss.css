@@ -10,7 +10,7 @@ body{
 #head{
     position:relative;
     top:0;
-    left:0;
+    left:0%;
     height:15%;
     width:100vw;
     background-color:aquamarine;
@@ -19,7 +19,7 @@ body{
 #jourubuz{
     position: absolute;
     top:6%;
-    left:6%;
+    left:40%;
     font-size: 9vh;
     font-family: Calibri;
     font-weight: bold;
@@ -30,7 +30,7 @@ body{
     height: 40px;
     display: block;
     position: absolute;
-    right:4%;
+    left:2%;
     top:30%;
     float: right;
 }

@@ -15,11 +15,11 @@
 
     <header id="head">
 
-        <label id="jourubuz">JOURNUBUZ</label>
+        <label id="jourubuz">JOURUBUZ</label>
         
 
 
-    <div id="hamburger">
+    <div id="hamburger" onclick="menu()">
         <span></span>
         <span></span>
         <span></span>
@@ -28,7 +28,25 @@
     </header>
 
 
-    <!--carosello-->   
+    <!--menu scelte-->  
+
+
+    <div id="menu">
+       
+        <a href="impostazioni.html"><div id="tasti-menu">
+            IMPOSTAZIONI
+        </div></a>
+        <a href="index.html"><div id="tasti-menu">
+            LOGOUT
+        </div></a>
+    </div>
+
+
+    <!--FINE menu scelte-->  
+
+
+    <!--carosello-->  
+
     
     <div class="container-fluid p-0">
         <div id="blog-carousel" class="carousel slide" data-ride="carousel">
@@ -56,13 +74,23 @@
     </div>
     <!--fine carosello-->
 
-    <div class="sotto" id="primosotto"></div>
-    <div class="sotto" id="secondosotto"></div>
-    <div class="sotto" id="terzosotto"></div>
+    <div class="sotto" id="primosotto">
+        <a href="index.html" style="color: orange;">NOTIZIE SPORTIVE</a>
 
-    <a href="index.html" style="color: orange;">Index</a>
-    <a href="impostazioni.html" style="color: orange;">Impostazioni</a>
-    <input type="button" value="test" onclick="test()">
+    </div>
+    <div class="sotto" id="secondosotto">
+        <a href="impostazioni.html" style="color: orange;">ATTUALITA' POLITICA</a>
+
+    </div>
+    <div class="sotto" id="terzosotto">
+        <!--<input type="button" value="test" onclick="test()"> -->
+        <a href="impostazioni.html" style="color: orange;">DAL MONDO</a>
+
+    </div>
+
+    
+    
+    
 
 
 

@@ -1,7 +1,15 @@
 var reader = new XMLHttpRequest();
 
-function test()
+
+var alterna=0;
+function menu()
 {
-    alert(localStorage.getItem('user'));
-    alert(localStorage.getItem('pass'));
+    if(alterna==0){
+        document.getElementById("menu").style.left = 0;
+        alterna=1;
+    }else{
+        document.getElementById("menu").style.left = "";
+        alterna=0;
+    }
+    
 }

@@ -6,12 +6,11 @@ body{
     justify-content: center;
     align-items: center; */
 }
-
 #head{
     position:relative;
     top:0;
     left:0%;
-    height:15%;
+    height:15vh;
     width:100vw;
     background-color:aquamarine;
 }
@@ -60,10 +59,10 @@ body{
 
 
 .container-fluid{
-    width:85vw;
+    width:90vw;
     height:55vh;
     position: relative;
-    left:7.5vw;
+    left:5vw;
     top:-1px;
 }
 .carousel-inner{
@@ -77,8 +76,8 @@ body{
 
 
 .sotto{
-    width:28vw;
-    height:27vh;
+    width:29.5vw;
+    height:28vh;
     border: 5px solid black;
     border-radius: 1%;
     
@@ -86,17 +85,60 @@ body{
 
 #primosotto{
     position: relative;
-    left:7.5vw;
-    top:1vh;
+    left:5vw;
+    top:1.5vh;
+    background-color: #9bdbe7;
 }
 #secondosotto{
     position: absolute;
-    left:36vw;
-    top:71vh;
+    left:35.3vw;
+    top:71.5vh;
+    background-color: #aecfb0;
 }
 #terzosotto{
     position: absolute;
-    right:6.6vw;
-    top:71vh;
+    right:5vw;
+    top:71.5vh;
+    background-color: #ffd0bc;
 
+}
+
+#menu{
+    position:absolute;
+    left:-20vw;
+    width:20vw;
+    height: 85vh;
+    background-color: black;
+    transition: 500ms ;
+    z-index: 100;
+    text-decoration: none;
+}
+
+#menu:hover{
+    text-decoration: none;
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+}
+
+#tasti-menu{
+    background-color: white;
+    font-size: 4vh;
+    font-family: Calibri;
+    font-weight: bold;
+    margin-top: 2vh;
+    text-decoration: none;
+    color: black;
+}
+
+#tasti-menu:hover{
+    background-color: green;
+    text-decoration: none;
 }

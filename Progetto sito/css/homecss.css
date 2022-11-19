@@ -74,3 +74,29 @@ body{
     position: relative;
     height: 55vh;
 }
+
+
+.sotto{
+    width:28vw;
+    height:27vh;
+    border: 5px solid black;
+    border-radius: 1%;
+    
+}
+
+#primosotto{
+    position: relative;
+    left:7.5vw;
+    top:1vh;
+}
+#secondosotto{
+    position: absolute;
+    left:36vw;
+    top:71vh;
+}
+#terzosotto{
+    position: absolute;
+    right:6.6vw;
+    top:71vh;
+
+}

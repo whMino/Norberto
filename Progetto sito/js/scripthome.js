@@ -13,3 +13,14 @@ function menu()
     }
     
 }
+
+function test()
+{
+    alert(localStorage.getItem("Local"));
+    alert(localStorage.getItem("Numpref"));
+    alert(localStorage.getItem("Pref1"));
+    alert(localStorage.getItem("Pref2"));
+    alert(localStorage.getItem("Pref3"));
+    alert(localStorage.getItem("Pref4"));
+    alert(localStorage.getItem("Pref5"));
+}

@@ -5,7 +5,7 @@ function Accedi(){
     var username = document.getElementById("textuser").value;
     var pass = document.getElementById("textpw").value;
 
-    localStorage.setItem('user', username); //Test
+    localStorage.setItem('user', username);
     localStorage.setItem('pass', pass);
 
     if(username != "" && pass != "")
@@ -20,6 +20,19 @@ function Accedi(){
             if(username == valori[0] && pass == valori[1])
             {
                 controllo = true;
+                localStorage.setItem('Local', valori[2]);
+                let preferenze = valori[3].split(",");
+                var Pref = ["", "", "", "", ""]
+                for(var j = 0; j<preferenze.length; j++)
+                {
+                    Pref[j] = preferenze[j];
+                }
+                localStorage.setItem('Numpref', preferenze.length);
+                localStorage.setItem('Pref1', Pref[0]);
+                localStorage.setItem('Pref2', Pref[1]);
+                localStorage.setItem('Pref3', Pref[2]);
+                localStorage.setItem('Pref4', Pref[3]);
+                localStorage.setItem('Pref5', Pref[4]);
             }
         }
 
@@ -52,6 +65,7 @@ function Registra(){
         for(var i = 0; i<righe.length - 1; i++)
         {
             let valori = righe[i].split(";");
+            localStorage.setItem('Local', valori[2]);
             if(username == valori[0] && pass == valori[1])
             {
                 controllo = false;

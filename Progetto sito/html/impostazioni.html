@@ -10,11 +10,6 @@
 <body >
     <header id="head">
         <label id="jourubuz">JOURUBUZ</label>
-    <div id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
 
     </header>
 
@@ -22,12 +17,18 @@
         <p id="impostazioni">Impostazioni</p>
         <label id="preferenze">Preferenza: </label>
         <input type="text" id="textpreferenza" >
-        <button value="Aggiungi" id="aggiungi">Aggiungi</button>
-        <button value="Rimuovi" id="rimuovi">Rimuovi</button>
+        <button value="Aggiungi" id="aggiungi" onclick="Aggiungi()">Aggiungi</button>
+        <button value="Rimuovi" id="rimuovi" onclick="Rimuovi()">Rimuovi</button>
 
         <Label id="localita">Località:</Label>
-        <input type="text" id="textlocalita" value="Italia">
-        <button value="Salva" id="btnlocalita">Salva località</button>
+        <select id="locali">
+            <option value="Italia">Italia</option>
+            <option value="Germania">Germania</option>
+            <option value="Francia">Francia</option>
+            <option value="Inghilterra">Inghilterra</option>
+            <option value="Spagna">Spagna</option>
+        </select>
+        <button value="Salva" id="btnlocalita" onclick="Salva()">Salva</button>
         <form action="home.html">
         <button type="submit" id="btnhome">Torna alla home</button>
               
@@ -35,6 +36,7 @@
   </form>
   </div>
   
+  <script src="../js/scriptimpostazioni.js"></script> 
   </body>
 </body>
 </html>

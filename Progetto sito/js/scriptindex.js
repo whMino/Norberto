@@ -24,7 +24,7 @@ function Accedi(){
                 let preferenze = valori[3].split(",");
                 var Pref = ["", "", "", "", ""]
                                    
-                if(preferenze[0].charAt(0) != "V" && preferenze[0].charAt(1) != "u" && preferenze[0].charAt(2) != "o" && preferenze[0].charAt(3) != "t" && preferenze[0].charAt(4) != "o")
+                if(preferenze[0].charAt(0) != "V" || preferenze[0].charAt(1) != "u" || preferenze[0].charAt(2) != "o" || preferenze[0].charAt(3) != "t" || preferenze[0].charAt(4) != "o")
                 {
                     for(var j = 0; j<preferenze.length; j++)
                     {
@@ -78,7 +78,7 @@ function Registra(){
         for(var i = 0; i<righe.length - 1; i++)
         {
             let valori = righe[i].split(";");
-            if(username == valori[0] && pass == valori[1])
+            if(username == valori[0])
             {
                 controllo = false;
             }

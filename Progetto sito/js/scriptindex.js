@@ -23,16 +23,29 @@ function Accedi(){
                 localStorage.setItem('Local', valori[2]);
                 let preferenze = valori[3].split(",");
                 var Pref = ["", "", "", "", ""]
-                for(var j = 0; j<preferenze.length; j++)
+                                   
+                if(preferenze[0].charAt(0) != "V" && preferenze[0].charAt(1) != "u" && preferenze[0].charAt(2) != "o" && preferenze[0].charAt(3) != "t" && preferenze[0].charAt(4) != "o")
                 {
-                    Pref[j] = preferenze[j];
+                    for(var j = 0; j<preferenze.length; j++)
+                    {
+                        Pref[j] = preferenze[j];
+                    }
+                    localStorage.setItem('Numpref', preferenze.length);
+                    localStorage.setItem('Pref1', Pref[0]);
+                    localStorage.setItem('Pref2', Pref[1]);
+                    localStorage.setItem('Pref3', Pref[2]);
+                    localStorage.setItem('Pref4', Pref[3]);
+                    localStorage.setItem('Pref5', Pref[4]);
                 }
-                localStorage.setItem('Numpref', preferenze.length);
-                localStorage.setItem('Pref1', Pref[0]);
-                localStorage.setItem('Pref2', Pref[1]);
-                localStorage.setItem('Pref3', Pref[2]);
-                localStorage.setItem('Pref4', Pref[3]);
-                localStorage.setItem('Pref5', Pref[4]);
+                else
+                {
+                    localStorage.setItem('Numpref', 0);
+                    localStorage.setItem('Pref1', Pref[0]);
+                    localStorage.setItem('Pref2', Pref[1]);
+                    localStorage.setItem('Pref3', Pref[2]);
+                    localStorage.setItem('Pref4', Pref[3]);
+                    localStorage.setItem('Pref5', Pref[4]);
+                }
             }
         }
 
@@ -65,7 +78,6 @@ function Registra(){
         for(var i = 0; i<righe.length - 1; i++)
         {
             let valori = righe[i].split(";");
-            localStorage.setItem('Local', valori[2]);
             if(username == valori[0] && pass == valori[1])
             {
                 controllo = false;
@@ -74,6 +86,13 @@ function Registra(){
 
         if(controllo==true)
         {
+            localStorage.setItem('Numpref', 0);
+            localStorage.setItem('Local', "Italia");
+            localStorage.setItem('Pref1', "");
+            localStorage.setItem('Pref2', "");
+            localStorage.setItem('Pref3', "");
+            localStorage.setItem('Pref4', "");
+            localStorage.setItem('Pref5', "");
             alert("Registrato correttamente");
             location.replace("./home.html");
         }

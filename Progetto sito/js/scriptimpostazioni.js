@@ -10,32 +10,109 @@ function Salva()
 
 function Aggiungi()
 {
-    alert("ciao");
+    var preferenza = document.getElementById("textpreferenza").value;
+    let num = localStorage.getItem("Numpref");
+    if(preferenza != "")
+    {
+        if(preferenza != localStorage.getItem("Pref1")&& preferenza != localStorage.getItem("Pref2") && preferenza != localStorage.getItem("Pref3") && preferenza != localStorage.getItem("Pref4") && preferenza != localStorage.getItem("Pref5"))
+        {
+            if(num==0)
+            {
+                localStorage.setItem("Pref1", preferenza);
+                num++;
+                localStorage.setItem("Numpref", num);
+                alert("Aggiunto correttamente");
+            }
+            else if(num==1)
+            {
+                localStorage.setItem("Pref2", preferenza);
+                num++;
+                localStorage.setItem("Numpref", num);
+                alert("Aggiunto correttamente");
+            }
+            else if(num==2)
+            {
+                localStorage.setItem("Pref3", preferenza);
+                num++;
+                localStorage.setItem("Numpref", num);
+                alert("Aggiunto correttamente");
+            }
+            else if(num==3)
+            {
+                localStorage.setItem("Pref4", preferenza);
+                num++;
+                localStorage.setItem("Numpref", num);
+                alert("Aggiunto correttamente");
+            }
+            else if(num==4)
+            {
+                localStorage.setItem("Pref5", preferenza);
+                num++;
+                localStorage.setItem("Numpref", num);
+                alert("Aggiunto correttamente");
+            }
+            else if(num==5)
+            {
+                alert("Esistono già 5 preferenze");
+            }
+        }
+        else
+        {
+            alert("Prefenza già esistente");
+        }
+    }
+    else
+    {
+        alert("Campo vuoto");
+    }
 }
 
 function Rimuovi()
 {
+    var preferenza = document.getElementById("textpreferenza").value;
     let num = localStorage.getItem("Numpref")-1;
-    if(num==0)
+    if(preferenza == localStorage.getItem("Pref1"))
     {
-        localStorage.setItem("Pref1", "");
+        localStorage.setItem("Pref1", localStorage.getItem("Pref2"));
+        localStorage.setItem("Pref2", localStorage.getItem("Pref3"));
+        localStorage.setItem("Pref3", localStorage.getItem("Pref4"));
+        localStorage.setItem("Pref4", localStorage.getItem("Pref5"));
+        localStorage.setItem("Pref5", "");
+        alert("Rimosso correttamente");
+        localStorage.setItem("Numpref", num);
     }
-    if(num==1)
+    else if(preferenza == localStorage.getItem("Pref2"))
     {
-        localStorage.setItem("Pref2", "");
+        localStorage.setItem("Pref2", localStorage.getItem("Pref3"));
+        localStorage.setItem("Pref3", localStorage.getItem("Pref4"));
+        localStorage.setItem("Pref4", localStorage.getItem("Pref5"));
+        localStorage.setItem("Pref5", "");
+        alert("Rimosso correttamente");
+        localStorage.setItem("Numpref", num);
     }
-    if(num==2)
+    else if(preferenza == localStorage.getItem("Pref3"))
     {
-        localStorage.setItem("Pref3", "");
+        localStorage.setItem("Pref3", localStorage.getItem("Pref4"));
+        localStorage.setItem("Pref4", localStorage.getItem("Pref5"));
+        localStorage.setItem("Pref5", "");
+        alert("Rimosso correttamente");
+        localStorage.setItem("Numpref", num);
     }
-    if(num==3)
+    else if(preferenza == localStorage.getItem("Pref4"))
     {
-        localStorage.setItem("Pref4", "");
+        localStorage.setItem("Pref4", localStorage.getItem("Pref5"));
+        localStorage.setItem("Pref5", "");
+        alert("Rimosso correttamente");
+        localStorage.setItem("Numpref", num);
     }
-    if(num==4)
+    else if(preferenza == localStorage.getItem("Pref5"))
     {
         localStorage.setItem("Pref5", "");
+        alert("Rimosso correttamente");
+        localStorage.setItem("Numpref", num);
     }
-    localStorage.setItem("Numpref", num);
-    alert("Tolto l'ultimo");
+    else
+    {
+        alert("Prefenza non trovata");
+    }
 }

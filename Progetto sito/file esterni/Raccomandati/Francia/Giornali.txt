@@ -1,0 +1,3 @@
+Sky;/file esterni/Raccomandati/Francia/Sky.jpg;../file esterni/Raccomandati/Francia/Sky.pdf
+Calcio oggi;/file esterni/Raccomandati/Francia/Calcio.jpg;../file esterni/Raccomandati/Francia/Calcio oggi.pdf
+Come va il golf?;/file esterni/Raccomandati/Francia/golf.jpg;../file esterni/Raccomandati/Francia/Come va il golf.pdf

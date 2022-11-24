@@ -1,0 +1,3 @@
+Sky;/file esterni/Mondo/Inghilterra/Sky.jpg;../file esterni/Mondo/Inghilterra/Sky.pdf
+Calcio oggi;/file esterni/Mondo/Inghilterra/Calcio.jpg;../file esterni/Mondo/Inghilterra/Calcio oggi.pdf
+Come va il golf?;/file esterni/Mondo/Inghilterra/golf.jpg;../file esterni/Mondo/Inghilterra/Come va il golf.pdf

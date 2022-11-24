@@ -3,11 +3,8 @@ let stringa = "";
 
 function inizio()
 {
-    localStorage.setItem("Percor", "../file esterni/Sport/Italia/Giornali.txt"); //Per testare
-    localStorage.setItem("Riga", 1);
-
     Leggi();
-    let riga = localStorage.getItem("Riga")-1;
+    let riga = localStorage.getItem("Riga");
     let righe = stringa.split("\n");
     let valori = righe[riga].split(";");
     let percorso = valori[2]+"#toolbar=0";

@@ -1,0 +1,3 @@
+Sky;/file esterni/Sport/Inghilterra/Sky.jpg;../file esterni/Sport/Inghilterra/Sky.pdf
+Who won?;/file esterni/Sport/Inghilterra/Calcio.jpg;../file esterni/Sport/Inghilterra/Who won.pdf
+Baseball;/file esterni/Sport/Inghilterra/golf.jpg;../file esterni/Sport/Inghilterra/Baseball.pdf

@@ -1,0 +1,3 @@
+Sky;/file esterni/Politica/Germania/Sky.jpg;../file esterni/Politica/Germania/Sky.pdf
+Calcio oggi;/file esterni/Politica/Germania/Calcio.jpg;../file esterni/Politica/Germania/Calcio oggi.pdf
+Come va il golf?;/file esterni/Politica/Germania/golf.jpg;../file esterni/Politica/Germania/Come va il golf.pdf

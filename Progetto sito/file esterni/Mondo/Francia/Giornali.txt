@@ -1,0 +1,3 @@
+Sky;/file esterni/Mondo/Francia/Sky.jpg;../file esterni/Mondo/Francia/Sky.pdf
+Calcio oggi;/file esterni/Mondo/Francia/Calcio.jpg;../file esterni/Mondo/Francia/Calcio oggi.pdf
+Come va il golf?;/file esterni/Mondo/Francia/golf.jpg;../file esterni/Mondo/Francia/Come va il golf.pdf

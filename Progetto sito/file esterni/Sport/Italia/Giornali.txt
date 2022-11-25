@@ -1,3 +1,4 @@
 Sky;/file esterni/Sport/Italia/Sky.jpg;../file esterni/Sport/Italia/Sky.pdf
 Calcio oggi;/file esterni/Sport/Italia/Calcio.jpg;../file esterni/Sport/Italia/Calcio oggi.pdf
 Come va il golf?;/file esterni/Sport/Italia/golf.jpg;../file esterni/Sport/Italia/Come va il golf.pdf
+Tennis aumenta in popolarità;/file esterni/Sport/Italia/Tennis.jpg;../file esterni/Sport/Italia/Come va il golf.pdf

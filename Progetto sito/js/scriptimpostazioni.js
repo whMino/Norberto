@@ -8,6 +8,20 @@ function Salva()
     alert("Località salvata correttamente");
 }
 
+function Inizio()
+{
+    document.getElementById("locali").value = localStorage.getItem("Local");
+}
+
+function Preferenze()
+{
+    alert("Preferenza 1: "+localStorage.getItem("Pref1"));
+    alert("Preferenza 2: "+localStorage.getItem("Pref2"));
+    alert("Preferenza 3: "+localStorage.getItem("Pref3"));
+    alert("Preferenza 4: "+localStorage.getItem("Pref4"));
+    alert("Preferenza 5: "+localStorage.getItem("Pref5"));
+}
+
 function Aggiungi()
 {
     var preferenza = document.getElementById("textpreferenza").value;

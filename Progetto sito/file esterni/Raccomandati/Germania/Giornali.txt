@@ -1,3 +1,4 @@
-Sky;/file esterni/Raccomandati/Germania/Sky.jpg;../file esterni/Raccomandati/Germania/Sky.pdf
-Calcio oggi;/file esterni/Raccomandati/Germania/Calcio.jpg;../file esterni/Raccomandati/Germania/Calcio oggi.pdf
-Come va il golf?;/file esterni/Raccomandati/Germania/golf.jpg;../file esterni/Raccomandati/Germania/Come va il golf.pdf
+Sky;/file esterni/Raccomandati/Germania/Sky.jpg;../file esterni/Raccomandati/Germania/Sky.pdf;Sport, 
+Wurstel;/file esterni/Raccomandati/Germania/Calcio.jpg;../file esterni/Raccomandati/Germania/Calcio oggi.pdf;Cibo, 
+Kraffen;/file esterni/Raccomandati/Germania/golf.jpg;../file esterni/Raccomandati/Germania/Come va il golf.pdf;Cibo, 
+Call of duty;/file esterni/Raccomandati/Germania/golf.jpg;../file esterni/Raccomandati/Germania/Come va il golf.pdf;Videogiochi, 

@@ -1,3 +1,5 @@
-Sky;/file esterni/Raccomandati/Italia/Sky.jpg;../file esterni/Raccomandati/Italia/Sky.pdf
-Calcio oggi;/file esterni/Raccomandati/Italia/Calcio.jpg;../file esterni/Raccomandati/Italia/Calcio oggi.pdf
-Come va il golf?;/file esterni/Raccomandati/Italia/golf.jpg;../file esterni/Raccomandati/Italia/Come va il golf.pdf
+Sky;/file esterni/Raccomandati/Italia/Sky.jpg;../file esterni/Raccomandati/Italia/Sky.pdf;Sport,TV, 
+Playstation;/file esterni/Raccomandati/Italia/Calcio.jpg;../file esterni/Raccomandati/Italia/Calcio oggi.pdf;Videogiochi,BOH, 
+Pizza;/file esterni/Raccomandati/Italia/golf.jpg;../file esterni/Raccomandati/Italia/Come va il golf.pdf;Cibo,FastFood, 
+Pasta;/file esterni/Raccomandati/Italia/golf.jpg;../file esterni/Raccomandati/Italia/Come va il golf.pdf;Cibo, 
+Golf;/file esterni/Raccomandati/Italia/golf.jpg;../file esterni/Raccomandati/Italia/Come va il golf.pdf;Sport,Golf, 

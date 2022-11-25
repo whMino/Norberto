@@ -7,7 +7,7 @@
     <title>Impostazioni</title>
     <link href="../css/impostazioni.css" rel="stylesheet" type="text/css">
 </head>
-<body >
+<body onload="Inizio()">
     <header id="head">
         <label id="jourubuz">JOURUBUZ</label>
 
@@ -19,6 +19,7 @@
         <input type="text" id="textpreferenza" >
         <button value="Aggiungi" id="aggiungi" onclick="Aggiungi()">Aggiungi</button>
         <button value="Rimuovi" id="rimuovi" onclick="Rimuovi()">Rimuovi</button>
+        <button onclick="Preferenze()" id="btnhome">Guarda preferenze</button>
 
         <Label id="localita">Località:</Label>
         <select id="locali">

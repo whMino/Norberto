@@ -1,3 +1,4 @@
-Sky;/file esterni/Raccomandati/Francia/Sky.jpg;../file esterni/Raccomandati/Francia/Sky.pdf
-Calcio oggi;/file esterni/Raccomandati/Francia/Calcio.jpg;../file esterni/Raccomandati/Francia/Calcio oggi.pdf
-Come va il golf?;/file esterni/Raccomandati/Francia/golf.jpg;../file esterni/Raccomandati/Francia/Come va il golf.pdf
+Sky;/file esterni/Raccomandati/Francia/Sky.jpg;../file esterni/Raccomandati/Francia/Sky.pdf;Sport,TV, 
+Tennis;/file esterni/Raccomandati/Francia/Calcio.jpg;../file esterni/Raccomandati/Francia/Calcio oggi.pdf;Sport,Tennis, 
+Baguette;/file esterni/Raccomandati/Francia/golf.jpg;../file esterni/Raccomandati/Francia/Come va il golf.pdf;Cibo,Pane, 
+Escargue;/file esterni/Raccomandati/Francia/golf.jpg;../file esterni/Raccomandati/Francia/Come va il golf.pdf;Cibo, 

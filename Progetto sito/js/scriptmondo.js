@@ -1,6 +1,6 @@
 var reader = new XMLHttpRequest();
 let stringa = "";
-let percorsofile = "../../file esterni/Sport/" + localStorage.getItem("Local") + "/" + "Giornali.txt";
+let percorsofile = "../../file esterni/Mondo/" + localStorage.getItem("Local") + "/" + "Giornali.txt";
 
 function inizio()
 {
@@ -25,17 +25,22 @@ function inizio()
 function Cliccato1()
 {
     localStorage.setItem("Riga", document.getElementById('Giornale1').getAttribute("name"));
-    localStorage.setItem("Percor", "../file esterni/Sport/Italia/Giornali.txt");
+    localStorage.setItem("Percor", percorsofile);
 }
 function Cliccato2()
 {
     localStorage.setItem("Riga", document.getElementById('Giornale2').getAttribute("name"));
-    localStorage.setItem("Percor", "../file esterni/Sport/Italia/Giornali.txt");
+    localStorage.setItem("Percor", percorsofile);
 }
 function Cliccato3()
 {
     localStorage.setItem("Riga", document.getElementById('Giornale3').getAttribute("name"));
-    localStorage.setItem("Percor", "../file esterni/Sport/Italia/Giornali.txt");
+    localStorage.setItem("Percor", percorsofile);
+}
+function Cliccato4()
+{
+    localStorage.setItem("Riga", document.getElementById('Giornale4').getAttribute("name"));
+    localStorage.setItem("Percor", percorsofile);
 }
 
 function Leggi()

@@ -1,0 +1,118 @@
+body{
+    width:100vw;
+    height:100vh;
+    background-color:white;
+    margin:0;
+    background-image: url("../file esterni/sfondo.jpg");
+}
+
+#head{
+    position:relative;
+    top:0;
+    height:15%;
+    width:100vw;
+    background-color:black;
+}
+
+#jourubuz{
+    position: absolute;
+    top:6%;
+    left:40%;
+    font-size: 9vh;
+    font-family: Imitation;
+    font-weight: bold;
+    color:white;
+
+}
+#hamburger {
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    left:2%;
+    top:30%;
+    float: right;
+}
+#hamburger span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: white;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+#hamburger span:nth-child(1) {
+ top: 6px;
+}
+#hamburger span:nth-child(2) {
+ top: 18px;
+}
+#hamburger span:nth-child(3) {
+ top: 30px;
+}
+
+ #quadrato1 {
+    border: 5px solid black;
+    height: 30vh;
+    width: 13vw;
+    position: absolute;
+    background-image: url("imm1");
+    top:20%;
+    left:25%;
+ }
+ #Giornale1{
+    position: absolute;
+    top:16%;
+    left:25%;
+ }
+ #quadrato2 {
+    border: 5px solid black;
+    height: 30vh;
+    width: 13vw;
+    position: absolute;
+    background-image: url("imm2");
+    top:20%;
+    right:25%;
+ }
+ #Giornale2{
+    position: absolute;
+    top:16%;
+    right:36%;
+ }
+ #quadrato3 {
+    border: 5px solid black;
+    height: 30vh;
+    width: 13vw;
+    position: absolute;
+    background-image: url("imm3");
+    bottom:10%;
+    left:25%;
+ } 
+ #Giornale3{
+    position: absolute;
+    bottom:42%;
+    left:25%;
+ }
+ #quadrato4 {
+    border: 5px solid black;
+    height: 30vh;
+    width: 13vw;
+    position: absolute;
+    background-image: url("imm4");
+    bottom:10%;
+    right:25%;
+ }
+ #Giornale4{
+    position: absolute;
+    bottom:42%;
+    right:36%;
+ }
+ #btnhome{
+    position: absolute;
+    right:5%;
+    bottom:5%;
+ }

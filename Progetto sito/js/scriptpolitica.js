@@ -6,7 +6,7 @@ function inizio()
 {
     Leggi();
     let righe = stringa.split("\n");
-    let numerogiornali = 3; //Numero di giornali da caricare
+    let numerogiornali = 4; //Numero di giornali da caricare
     for(let i = 0; i < numerogiornali; i++)
     {
         if(i < righe.length -1)

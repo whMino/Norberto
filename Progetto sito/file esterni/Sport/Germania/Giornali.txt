@@ -1,3 +1,4 @@
 Sky;/file esterni/Sport/Germania/Sky.jpg;../file esterni/Sport/Germania/Sky.pdf
 Fußball;/file esterni/Sport/Germania/Calcio.jpg;../file esterni/Sport/Germania/Fußball.pdf
 Golf;/file esterni/Sport/Germania/golf.jpg;../file esterni/Sport/Germania/Golf.pdf
+Laufen ist gut;/file esterni/Sport/Germania/Correre.jpg;../file esterni/Sport/Germania/Golf.pdf

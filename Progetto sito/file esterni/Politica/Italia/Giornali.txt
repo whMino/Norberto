@@ -1,3 +1,4 @@
-Sky;/file esterni/Politica/Italia/Sky.jpg;../file esterni/Politica/Italia/Sky.pdf
-Calcio oggi;/file esterni/Politica/Italia/Calcio.jpg;../file esterni/Politica/Italia/Calcio oggi.pdf
-Come va il golf?;/file esterni/Politica/Italia/golf.jpg;../file esterni/Politica/Italia/Come va il golf.pdf
+TG5;/file esterni/Politica/Italia/TG5.jpg;../file esterni/Politica/Italia/Sky.pdf
+Meloni ultime news;/file esterni/Politica/Italia/Meloni.jpg;../file esterni/Politica/Italia/Calcio oggi.pdf
+Tasse aumentate del 300%;/file esterni/Politica/Italia/Alto.jpg;../file esterni/Politica/Italia/Come va il golf.pdf
+Benzinza alle stelle;/file esterni/Politica/Italia/Benzinza.jpg;../file esterni/Politica/Italia/Come va il golf.pdf

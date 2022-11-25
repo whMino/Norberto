@@ -28,7 +28,7 @@ function Aggiungi()
     let num = localStorage.getItem("Numpref");
     if(preferenza != "")
     {
-        if(preferenza != localStorage.getItem("Pref1")&& preferenza != localStorage.getItem("Pref2") && preferenza != localStorage.getItem("Pref3") && preferenza != localStorage.getItem("Pref4") && preferenza != localStorage.getItem("Pref5"))
+        if(!localStorage.getItem("Pref1").includes(preferenza) && !localStorage.getItem("Pref2").includes(preferenza) && !localStorage.getItem("Pref3").includes(preferenza) && !localStorage.getItem("Pref4").includes(preferenza) && !localStorage.getItem("Pref5").includes(preferenza))
         {
             if(num==0)
             {
@@ -85,7 +85,7 @@ function Rimuovi()
 {
     var preferenza = document.getElementById("textpreferenza").value;
     let num = localStorage.getItem("Numpref")-1;
-    if(preferenza == localStorage.getItem("Pref1"))
+    if(localStorage.getItem("Pref1").includes(preferenza))
     {
         localStorage.setItem("Pref1", localStorage.getItem("Pref2"));
         localStorage.setItem("Pref2", localStorage.getItem("Pref3"));
@@ -95,7 +95,7 @@ function Rimuovi()
         alert("Rimosso correttamente");
         localStorage.setItem("Numpref", num);
     }
-    else if(preferenza == localStorage.getItem("Pref2"))
+    else if(localStorage.getItem("Pref2").includes(preferenza))
     {
         localStorage.setItem("Pref2", localStorage.getItem("Pref3"));
         localStorage.setItem("Pref3", localStorage.getItem("Pref4"));
@@ -104,7 +104,7 @@ function Rimuovi()
         alert("Rimosso correttamente");
         localStorage.setItem("Numpref", num);
     }
-    else if(preferenza == localStorage.getItem("Pref3"))
+    else if(localStorage.getItem("Pref3").includes(preferenza))
     {
         localStorage.setItem("Pref3", localStorage.getItem("Pref4"));
         localStorage.setItem("Pref4", localStorage.getItem("Pref5"));
@@ -112,14 +112,14 @@ function Rimuovi()
         alert("Rimosso correttamente");
         localStorage.setItem("Numpref", num);
     }
-    else if(preferenza == localStorage.getItem("Pref4"))
+    else if(localStorage.getItem("Pref4").includes(preferenza))
     {
         localStorage.setItem("Pref4", localStorage.getItem("Pref5"));
         localStorage.setItem("Pref5", "");
         alert("Rimosso correttamente");
         localStorage.setItem("Numpref", num);
     }
-    else if(preferenza == localStorage.getItem("Pref5"))
+    else if(localStorage.getItem("Pref5").includes(preferenza))
     {
         localStorage.setItem("Pref5", "");
         alert("Rimosso correttamente");

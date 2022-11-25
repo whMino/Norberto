@@ -1,3 +1,4 @@
-Sky;/file esterni/Politica/Francia/Sky.jpg;../file esterni/Politica/Francia/Sky.pdf
-Calcio oggi;/file esterni/Politica/Francia/Calcio.jpg;../file esterni/Politica/Francia/Calcio oggi.pdf
-Come va il golf?;/file esterni/Politica/Francia/golf.jpg;../file esterni/Politica/Francia/Come va il golf.pdf
+Baisse des touristes;/file esterni/Politica/Francia/Turisti.jpeg;../file esterni/Politica/Francia/Sky.pdf
+Le prix du fromage en haussei;/file esterni/Politica/Francia/Formaggio.jpeg;../file esterni/Politica/Francia/Calcio oggi.pdf
+La tour Eiffel commence à s'incliner;/file esterni/Politica/Francia/Torre.jpg;../file esterni/Politica/Francia/Come va il golf.pdf
+La France, le pays le plus détesté;/file esterni/Politica/Francia/Francia.png;../file esterni/Politica/Francia/Come va il golf.pdf

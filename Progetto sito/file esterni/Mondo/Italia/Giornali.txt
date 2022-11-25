@@ -1,3 +1,4 @@
-Sky;/file esterni/Mondo/Italia/Sky.jpg;../file esterni/Mondo/Italia/Sky.pdf
-Calcio oggi;/file esterni/Mondo/Italia/Calcio.jpg;../file esterni/Mondo/Italia/Calcio oggi.pdf
-Come va il golf?;/file esterni/Mondo/Italia/golf.jpg;../file esterni/Mondo/Italia/Come va il golf.pdf
+Biden alza le tasse;/file esterni/Mondo/Italia/Biden.jpg;../file esterni/Mondo/Italia/Sky.pdf
+Giappone germania elettrizza il mondo;/file esterni/Mondo/Italia/Giappone.png;../file esterni/Mondo/Italia/Calcio oggi.pdf
+Spagna, migranti in calo;/file esterni/Mondo/Italia/Spagna.png;../file esterni/Mondo/Italia/Come va il golf.pdf
+Euro risupera il dollaro;/file esterni/Mondo/Italia/Euro.jpg;../file esterni/Mondo/Italia/Come va il golf.pdf

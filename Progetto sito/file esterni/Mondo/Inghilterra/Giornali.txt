@@ -1,3 +1,4 @@
-Sky;/file esterni/Mondo/Inghilterra/Sky.jpg;../file esterni/Mondo/Inghilterra/Sky.pdf
-Calcio oggi;/file esterni/Mondo/Inghilterra/Calcio.jpg;../file esterni/Mondo/Inghilterra/Calcio oggi.pdf
-Come va il golf?;/file esterni/Mondo/Inghilterra/golf.jpg;../file esterni/Mondo/Inghilterra/Come va il golf.pdf
+USA thinks its better than us;/file esterni/Mondo/Inghilterra/USA.png;../file esterni/Mondo/Inghilterra/Sky.pdf
+Trump has lost;/file esterni/Mondo/Inghilterra/Trump.jpg;../file esterni/Mondo/Inghilterra/Calcio oggi.pdf
+Russia's still at war;/file esterni/Mondo/Inghilterra/Russia.png;../file esterni/Mondo/Inghilterra/Come va il golf.pdf
+Your flight might be cancelled;/file esterni/Mondo/Inghilterra/Aereo.jpg;../file esterni/Mondo/Inghilterra/Come va il golf.pdf

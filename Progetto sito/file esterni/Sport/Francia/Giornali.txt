@@ -1,3 +1,4 @@
 Sky;/file esterni/Sport/Francia/Sky.jpg;../file esterni/Sport/Francia/Sky.pdf
 Football;/file esterni/Sport/Francia/Calcio.jpg;../file esterni/Sport/Francia/Football.pdf
-Tennis;/file esterni/Sport/Francia/golf.jpg;../file esterni/Sport/Francia/Tennis.pdf
+Tennis;/file esterni/Sport/Francia/Tennis.jpg;../file esterni/Sport/Francia/Tennis.pdf
+Coureur le plus rapide du monde;/file esterni/Sport/Francia/Correre.jpg;../file esterni/Sport/Francia/Tennis.pdf

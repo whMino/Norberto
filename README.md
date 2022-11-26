@@ -1,7 +1,9 @@
 # Progetto
 
 
-USARE XAMPP O VISUAL STUDIO CODE
+USARE XAMPP O VISUAL STUDIO CODE PER APRIRE IL PROGETTO
+
+------------------------------------------------------------------------
 
 
 Idee Apuzzo:

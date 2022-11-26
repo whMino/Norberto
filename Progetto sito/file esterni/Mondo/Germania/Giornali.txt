@@ -1,4 +1,4 @@
-Ukraine immer noch im Kampf;/file esterni/Mondo/Germania/Ucraina.png;../file esterni/Mondo/Germania/Sky.pdf
-Zahl der Katzen rückläufig;/file esterni/Mondo/Germania/Gatto.jpg;../file esterni/Mondo/Germania/Calcio oggi.pdf
-Invasion von Ratten in Ägypten;/file esterni/Mondo/Germania/Topo.jpg;../file esterni/Mondo/Germania/Come va il golf.pdf
-Gaspreis steigt;/file esterni/Mondo/Germania/Gas.jpg;../file esterni/Mondo/Germania/Come va il golf.pdf
+Ukraine immer noch im Kampf;../../file esterni/Mondo/Germania/Ucraina.png;../../file esterni/Mondo/Germania/Sky.pdf
+Zahl der Katzen rückläufig;../../file esterni/Mondo/Germania/Gatto.jpg;../../file esterni/Mondo/Germania/Calcio oggi.pdf
+Invasion von Ratten in Ägypten;../../file esterni/Mondo/Germania/Topo.jpg;../../file esterni/Mondo/Germania/Come va il golf.pdf
+Gaspreis steigt;../../file esterni/Mondo/Germania/Gas.jpg;../../file esterni/Mondo/Germania/Come va il golf.pdf

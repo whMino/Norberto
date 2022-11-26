@@ -1,4 +1,4 @@
-Chute du dollar;/file esterni/Mondo/Francia/Dollaro.jpg;../file esterni/Mondo/Francia/Sky.pdf
-Montée du niveau de la mer;/file esterni/Mondo/Francia/Mare.jpg;../file esterni/Mondo/Francia/Calcio oggi.pdf
-Le réchauffement climatique, vrai problème?;/file esterni/Mondo/Francia/Mondo.jpg;../file esterni/Mondo/Francia/Come va il golf.pdf
-Révolte en Thaïlande;/file esterni/Mondo/Francia/Thai.png;../file esterni/Mondo/Francia/Come va il golf.pdf
+Chute du dollar;../../file esterni/Mondo/Francia/Dollaro.jpg;../../file esterni/Mondo/Francia/Sky.pdf
+Montée du niveau de la mer;../../file esterni/Mondo/Francia/Mare.jpg;../../file esterni/Mondo/Francia/Calcio oggi.pdf
+Le réchauffement climatique, vrai problème?;../../file esterni/Mondo/Francia/Mondo.jpg;../../file esterni/Mondo/Francia/Come va il golf.pdf
+Révolte en Thaïlande;../../file esterni/Mondo/Francia/Thai.png;../../file esterni/Mondo/Francia/Come va il golf.pdf

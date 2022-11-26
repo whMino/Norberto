@@ -1,4 +1,4 @@
-Boris Johnson's out;/file esterni/Politica/Inghilterra/Boris.jpg;../file esterni/Politica/Inghilterra/Sky.pdf
-Migration increases;/file esterni/Politica/Inghilterra/Alto.jpg;../file esterni/Politica/Inghilterra/Calcio oggi.pdf
-Margaret Thatcher's still dead;/file esterni/Politica/Inghilterra/golf.jpg;../file esterni/Politica/Inghilterra/Come va il golf.pdf
-Irish people cheer the queen's death;/file esterni/Politica/Inghilterra/Irlanda.png;../file esterni/Politica/Inghilterra/Come va il golf.pdf
+Boris Johnson's out;../../file esterni/Politica/Inghilterra/Boris.jpg;../../file esterni/Politica/Inghilterra/Sky.pdf
+Migration increases;../../file esterni/Politica/Inghilterra/Alto.jpg;../../file esterni/Politica/Inghilterra/Calcio oggi.pdf
+Margaret Thatcher's still dead;../../file esterni/Politica/Inghilterra/golf.jpg;../../file esterni/Politica/Inghilterra/Come va il golf.pdf
+Irish people cheer the queen's death;../../file esterni/Politica/Inghilterra/Irlanda.png;../../file esterni/Politica/Inghilterra/Come va il golf.pdf

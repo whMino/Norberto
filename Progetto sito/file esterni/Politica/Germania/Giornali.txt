@@ -1,4 +1,4 @@
-Deutsche Politik 101;/file esterni/Politica/Germania/101.jpg;../file esterni/Politica/Germania/Sky.pdf
-Euro runter;/file esterni/Politica/Germania/Euro.jpg;../file esterni/Politica/Germania/Calcio oggi.pdf
-Die Kohle brennt;/file esterni/Politica/Germania/Carbone.jpg;../file esterni/Politica/Germania/Come va il golf.pdf
-Durchschnittsalter steigt;/file esterni/Politica/Germania/Vecchio.jpg;../file esterni/Politica/Germania/Come va il golf.pdf
+Deutsche Politik 101;../../file esterni/Politica/Germania/101.jpg;../../file esterni/Politica/Germania/Sky.pdf
+Euro runter;../../file esterni/Politica/Germania/Euro.jpg;../../file esterni/Politica/Germania/Calcio oggi.pdf
+Die Kohle brennt;../../file esterni/Politica/Germania/Carbone.jpg;../../file esterni/Politica/Germania/Come va il golf.pdf
+Durchschnittsalter steigt;../../file esterni/Politica/Germania/Vecchio.jpg;../../file esterni/Politica/Germania/Come va il golf.pdf

@@ -1,4 +1,4 @@
-USA thinks its better than us;/file esterni/Mondo/Inghilterra/USA.png;../file esterni/Mondo/Inghilterra/Sky.pdf
-Trump has lost;/file esterni/Mondo/Inghilterra/Trump.jpg;../file esterni/Mondo/Inghilterra/Calcio oggi.pdf
-Russia's still at war;/file esterni/Mondo/Inghilterra/Russia.png;../file esterni/Mondo/Inghilterra/Come va il golf.pdf
-Your flight might be cancelled;/file esterni/Mondo/Inghilterra/Aereo.jpg;../file esterni/Mondo/Inghilterra/Come va il golf.pdf
+USA thinks its better than us;../../file esterni/Mondo/Inghilterra/USA.png;../../file esterni/Mondo/Inghilterra/Sky.pdf
+Trump has lost;../../file esterni/Mondo/Inghilterra/Trump.jpg;../../file esterni/Mondo/Inghilterra/Calcio oggi.pdf
+Russia's still at war;../../file esterni/Mondo/Inghilterra/Russia.png;../../file esterni/Mondo/Inghilterra/Come va il golf.pdf
+Your flight might be cancelled;../../file esterni/Mondo/Inghilterra/Aereo.jpg;../../file esterni/Mondo/Inghilterra/Come va il golf.pdf

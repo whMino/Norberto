@@ -1,4 +1,4 @@
-TG5;/file esterni/Politica/Italia/TG5.jpg;../file esterni/Politica/Italia/Sky.pdf
-Meloni ultime news;/file esterni/Politica/Italia/Meloni.jpg;../file esterni/Politica/Italia/Calcio oggi.pdf
-Tasse aumentate del 300%;/file esterni/Politica/Italia/Alto.jpg;../file esterni/Politica/Italia/Come va il golf.pdf
-Benzina alle stelle;/file esterni/Politica/Italia/Benzina.jpg;../file esterni/Politica/Italia/Come va il golf.pdf
+TG5;../../file esterni/Politica/Italia/TG5.jpg;../../file esterni/Politica/Italia/Sky.pdf
+Meloni ultime news;../../file esterni/Politica/Italia/Meloni.jpg;../../file esterni/Politica/Italia/Calcio oggi.pdf
+Tasse aumentate del 300%;../../file esterni/Politica/Italia/Alto.jpg;../../file esterni/Politica/Italia/Come va il golf.pdf
+Benzina alle stelle;../../file esterni/Politica/Italia/Benzina.jpg;../../file esterni/Politica/Italia/Come va il golf.pdf

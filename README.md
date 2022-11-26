@@ -1,5 +1,9 @@
 # Progetto
 
+
+USARE XAMPP O VISUAL STUDIO CODE
+
+
 Idee Apuzzo:
 
 -Applicazione per trovare specifici piatti

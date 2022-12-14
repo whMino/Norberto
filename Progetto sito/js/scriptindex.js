@@ -52,7 +52,9 @@ function Accedi(){
         if(controllo==true)
         {
             alert("Acceduto correttamente");
-            location.replace("./home.html");
+            document.getElementById('Valore').value = "Accedi";
+            document.getElementById("login").submit();
+            //location.replace("./home.html");
         }
         else
         {
@@ -94,7 +96,9 @@ function Registra(){
             localStorage.setItem('Pref4', "");
             localStorage.setItem('Pref5', "");
             alert("Registrato correttamente");
-            location.replace("./home.html");
+            document.getElementById('Valore').value = "Registra";
+            document.getElementById("login").submit();
+            //location.replace("./home.html");
         }
         else
         {

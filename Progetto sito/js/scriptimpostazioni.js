@@ -5,9 +5,9 @@ function Salva()
 {
     var località = document.getElementById("locali").value;
     localStorage.setItem("Local", località);
-    document.getElementById('Valore').value = "Local:"+localStorage.setItem("Local");;
-    document.getElementById("Form").submit();
     alert("Località salvata correttamente");
+    document.getElementById('Valore').value = "Local:"+localStorage.getItem("Local");
+    document.getElementById("Form").submit();
 }
 
 function Inizio()

@@ -1,7 +1,7 @@
 # Progetto
 
 
-USARE XAMPP O VISUAL STUDIO CODE PER APRIRE IL PROGETTO
+USARE XAMPP PER APRIRE IL PROGETTO
 
 ------------------------------------------------------------------------
 

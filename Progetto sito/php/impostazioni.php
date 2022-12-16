@@ -29,14 +29,33 @@ if($metodo[0]=="Local") //Funziona
     fwrite($myfile2, $str);
     fclose($myfile2);
 }
-else if($metodo[0]=="Agg") //Da finire
+else if($metodo[0]=="Agg") //Funziona
 {
+    $pref = explode(";", $metodo[1]);
+    $pref2 = "";
+    $x = 0;
+    while($x < count($pref))
+    {
+        $t = count($pref)-1;
+        if($pref[$x] != "fi")
+        {
+            if($x != $t-1)
+            {
+                $pref2 = $pref2.$pref[$x].",";
+            }
+            else
+            {
+                $pref2 = $pref2.$pref[$x];
+            }
+        }
+        $x++;
+    }
     $str = "";
     while (($line = fgets($myfile)) !== false) {
         $vett = explode(";", $line);
         if($vett[0] == $user)
         {
-            $str = $str.$vett[0].";".$vett[1].";".$metodo[1].";".$vett[3];
+            $str = $str.$vett[0].";".$vett[1].";".$vett[2].";".$pref2."\n";
         }
         else
         {

@@ -14,7 +14,7 @@ function Accedi(){
         Leggi();
         righe = stringa.split("\n");
 
-        for(var i = 0; i<righe.length - 1; i++)
+        for(var i = 0; i<righe.length-1; i++)
         {
             let valori = righe[i].split(";");
             if(username == valori[0] && pass == valori[1])
@@ -54,7 +54,6 @@ function Accedi(){
             alert("Acceduto correttamente");
             document.getElementById('Valore').value = "Accedi";
             document.getElementById("login").submit();
-            //location.replace("./home.html");
         }
         else
         {
@@ -98,7 +97,6 @@ function Registra(){
             alert("Registrato correttamente");
             document.getElementById('Valore').value = "Registra";
             document.getElementById("login").submit();
-            //location.replace("./home.html");
         }
         else
         {

@@ -34,52 +34,52 @@ function Aggiungi()
         {
             if(num==0)
             {
-                let str = localStorage.getItem("Pref1");
                 localStorage.setItem("Pref1", preferenza);
                 num++;
                 localStorage.setItem("Numpref", num);
                 alert("Aggiunto correttamente");
-                document.getElementById('Valore').value = "Agg:"+str+";fine";
+                let str = localStorage.getItem("Pref1");
+                document.getElementById('Valore').value = "Agg:"+str+";fi";
                 document.getElementById("Form").submit();
             }
             else if(num==1)
             {
-                let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2");
                 localStorage.setItem("Pref2", preferenza);
                 num++;
                 localStorage.setItem("Numpref", num);
                 alert("Aggiunto correttamente");
-                document.getElementById('Valore').value = "Agg:"+str+";fine";
+                let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2");
+                document.getElementById('Valore').value = "Agg:"+str+";fi";
                 document.getElementById("Form").submit();
             }
             else if(num==2)
             {
-                let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3");
                 localStorage.setItem("Pref3", preferenza);
                 num++;
                 localStorage.setItem("Numpref", num);
                 alert("Aggiunto correttamente");
-                document.getElementById('Valore').value = "Agg:"+str+";fine";
+                let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3");
+                document.getElementById('Valore').value = "Agg:"+str+";fi";
                 document.getElementById("Form").submit();
             }
             else if(num==3)
             {
-                let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3")+";"+localStorage.getItem("Pref4");
                 localStorage.setItem("Pref4", preferenza);
                 num++;
                 localStorage.setItem("Numpref", num);
                 alert("Aggiunto correttamente");
-                document.getElementById('Valore').value = "Agg:"+str+";fine";
+                let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3")+";"+localStorage.getItem("Pref4");
+                document.getElementById('Valore').value = "Agg:"+str+";fi";
                 document.getElementById("Form").submit();
             }
             else if(num==4)
             {
-                let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3")+";"+localStorage.getItem("Pref4")+";"+localStorage.getItem("Pref5");
                 localStorage.setItem("Pref5", preferenza);
                 num++;
                 localStorage.setItem("Numpref", num);
                 alert("Aggiunto correttamente");
-                document.getElementById('Valore').value = "Agg:"+str+";fine";
+                let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3")+";"+localStorage.getItem("Pref4")+";"+localStorage.getItem("Pref5");
+                document.getElementById('Valore').value = "Agg:"+str+";fi";
                 document.getElementById("Form").submit();
             }
             else if(num==5)

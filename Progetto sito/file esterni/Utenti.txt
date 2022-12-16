@@ -1,5 +1,4 @@
 admin;123;Italia;Sport,Videogiochi
 test;123;Italia;Politica
 utente;456;Italia;Vuoto
-registra;registra;Italia;Vuoto
-ghghf;dgrgdgd;Italia;Vuoto
+registra;registra;Italia;Videogiochi,Sport

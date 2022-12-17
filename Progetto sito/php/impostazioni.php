@@ -67,14 +67,37 @@ else if($metodo[0]=="Agg") //Funziona
     fwrite($myfile2, $str);
     fclose($myfile2);
 }
-else if($metodo[0]=="Rim") //Da finire
+else if($metodo[0]=="Rim") //Funziona
 {
+    $pref = explode(";", $metodo[1]);
+    $pref2 = "";
+    $x = 0;
+    $y = count($pref)-1;
+    while($x < count($pref))
+    {   
+        if($pref[$x] != "fi")
+        {
+            if($pref[$x] != "")
+            {   
+                if($x != $y-1)
+                {
+                    $pref2 = $pref2.$pref[$x].",";
+                }
+                else
+                {
+                    $pref2 = $pref2.$pref[$x];
+                }
+            }
+        }
+        $x++;
+    }
+    $pref2 = rtrim($pref2, ",");
     $str = "";
     while (($line = fgets($myfile)) !== false) {
         $vett = explode(";", $line);
         if($vett[0] == $user)
         {
-            $str = $str.$vett[0].";".$vett[1].";".$metodo[1].";".$vett[3];
+            $str = $str.$vett[0].";".$vett[1].";".$vett[2].";".$pref2."\n";
         }
         else
         {

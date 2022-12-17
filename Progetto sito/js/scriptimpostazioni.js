@@ -104,12 +104,12 @@ function Rimuovi()
     let num = localStorage.getItem("Numpref")-1;
     if(localStorage.getItem("Pref1").includes(preferenza))
     {
-        let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3")+";"+localStorage.getItem("Pref4")+";"+localStorage.getItem("Pref5");
         localStorage.setItem("Pref1", localStorage.getItem("Pref2"));
         localStorage.setItem("Pref2", localStorage.getItem("Pref3"));
         localStorage.setItem("Pref3", localStorage.getItem("Pref4"));
         localStorage.setItem("Pref4", localStorage.getItem("Pref5"));
         localStorage.setItem("Pref5", "");
+        let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3")+";"+localStorage.getItem("Pref4")+";"+localStorage.getItem("Pref5");
         alert("Rimosso correttamente");
         localStorage.setItem("Numpref", num);
         document.getElementById('Valore').value = "Rim:"+str;
@@ -117,11 +117,11 @@ function Rimuovi()
     }
     else if(localStorage.getItem("Pref2").includes(preferenza))
     {
-        let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3")+";"+localStorage.getItem("Pref4")+";"+localStorage.getItem("Pref5");
         localStorage.setItem("Pref2", localStorage.getItem("Pref3"));
         localStorage.setItem("Pref3", localStorage.getItem("Pref4"));
         localStorage.setItem("Pref4", localStorage.getItem("Pref5"));
         localStorage.setItem("Pref5", "");
+        let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3")+";"+localStorage.getItem("Pref4")+";"+localStorage.getItem("Pref5");
         alert("Rimosso correttamente");
         localStorage.setItem("Numpref", num);
         document.getElementById('Valore').value = "Rim:"+str;
@@ -129,10 +129,10 @@ function Rimuovi()
     }
     else if(localStorage.getItem("Pref3").includes(preferenza))
     {
-        let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3")+";"+localStorage.getItem("Pref4")+";"+localStorage.getItem("Pref5");
         localStorage.setItem("Pref3", localStorage.getItem("Pref4"));
         localStorage.setItem("Pref4", localStorage.getItem("Pref5"));
         localStorage.setItem("Pref5", "");
+        let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3")+";"+localStorage.getItem("Pref4")+";"+localStorage.getItem("Pref5");
         alert("Rimosso correttamente");
         localStorage.setItem("Numpref", num);
         document.getElementById('Valore').value = "Rim:"+str;
@@ -140,9 +140,9 @@ function Rimuovi()
     }
     else if(localStorage.getItem("Pref4").includes(preferenza))
     {
-        let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3")+";"+localStorage.getItem("Pref4")+";"+localStorage.getItem("Pref5");
         localStorage.setItem("Pref4", localStorage.getItem("Pref5"));
         localStorage.setItem("Pref5", "");
+        let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3")+";"+localStorage.getItem("Pref4")+";"+localStorage.getItem("Pref5");
         alert("Rimosso correttamente");
         localStorage.setItem("Numpref", num);
         document.getElementById('Valore').value = "Rim:"+str;
@@ -150,8 +150,8 @@ function Rimuovi()
     }
     else if(localStorage.getItem("Pref5").includes(preferenza))
     {
-        let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3")+";"+localStorage.getItem("Pref4")+";"+localStorage.getItem("Pref5");
         localStorage.setItem("Pref5", "");
+        let str = localStorage.getItem("Pref1")+";"+localStorage.getItem("Pref2")+";"+localStorage.getItem("Pref3")+";"+localStorage.getItem("Pref4")+";"+localStorage.getItem("Pref5");
         alert("Rimosso correttamente");
         localStorage.setItem("Numpref", num);
         document.getElementById('Valore').value = "Rim:"+str;

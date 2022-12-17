@@ -81,7 +81,7 @@ body{
  #Giornale2{
     position: absolute;
     top:16%;
-    right:36%;
+    left:61%;
  }
  #quadrato3 {
     border: 5px solid black;
@@ -109,7 +109,7 @@ body{
  #Giornale4{
     position: absolute;
     bottom:42%;
-    right:36%;
+    left:61%;
  }
  #btnhome{
     position: absolute;
